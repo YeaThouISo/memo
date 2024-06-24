@@ -6,3 +6,4 @@ cd memo_app
 python -m venv venv
 venv\Scripts\activate
 pip install flask
+
