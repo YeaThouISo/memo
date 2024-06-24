@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}メモ一覧{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for memo in memos %}
+            <li>{{ memo.content }} - Tags: {{ memo.tags }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
